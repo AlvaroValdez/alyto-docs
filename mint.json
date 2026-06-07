@@ -57,7 +57,8 @@
       "pages": [
         "primeros-pasos/registro",
         "primeros-pasos/verificacion-kyc",
-        "primeros-pasos/primer-deposito"
+        "primeros-pasos/primer-deposito",
+        "primeros-pasos/dashboard"
       ]
     },
     {
@@ -67,7 +68,8 @@
         "wallet-bob/cargar-saldo",
         "wallet-bob/enviar-bob",
         "wallet-bob/retirar-bob",
-        "wallet-bob/pagos-qr"
+        "wallet-bob/pagos-qr",
+        "wallet-bob/contactos"
       ]
     },
     {
@@ -87,10 +89,15 @@
       ]
     },
     {
+      "group": "Cuenta Business",
+      "pages": ["cuenta-business/kyb"]
+    },
+    {
       "group": "Seguridad y cuenta",
       "pages": [
         "seguridad/perfil-y-configuracion",
         "seguridad/dispositivos-y-sesiones",
+        "seguridad/notificaciones",
         "seguridad/reclamos-prili"
       ]
     },
