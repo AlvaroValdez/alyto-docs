@@ -1,0 +1,97 @@
+---
+title: "Enviar USDC"
+description: "Transfiere USDC a otros usuarios Alyto al instante con tu alias"
+---
+
+## Envíos USDC entre usuarios Alyto
+
+Puedes enviar **USDC** a otro usuario de Alyto al instante, igual que con bolivianos.
+La transferencia es inmediata y se registra en la blockchain Stellar como audit trail.
+
+<Note>
+  Los envíos USDC entre usuarios Alyto son **solo entre cuentas Alyto**. El envío de
+  USDC a una dirección externa fuera de Alyto es una función futura.
+</Note>
+
+## Tu alias Alyto
+
+En lugar de compartir tu email o tu dirección Stellar, recibes USDC a través de tu
+**alias Alyto** — un nombre de usuario único, por ejemplo `@juan`.
+
+<Steps>
+  <Step title="Elige tu alias">
+    Ve a tu perfil y configura tu alias Alyto. La app te dice si está disponible.
+  </Step>
+  <Step title="Compártelo">
+    Quien quiera enviarte USDC solo necesita tu alias (o tu QR).
+  </Step>
+</Steps>
+
+<Note>
+  Tu alias se puede cambiar, pero con un período de espera entre cambios. Elige uno
+  con el que te sientas cómodo a largo plazo.
+</Note>
+
+## Métodos de envío
+
+<Tabs>
+  <Tab title="Por alias">
+    <Steps>
+      <Step title="Wallet USDC → Enviar">
+        Toca el botón **Enviar** en la tarjeta de saldo USDC.
+      </Step>
+      <Step title="Ingresa el alias del destinatario">
+        Escribe el alias (ej. `@maria`). La app valida que exista antes de continuar.
+      </Step>
+      <Step title="Ingresa el monto">
+        Indica cuánto USDC quieres enviar. Verás una **cotización** con el desglose
+        antes de confirmar.
+      </Step>
+      <Step title="Revisa y confirma">
+        Verifica el destinatario y el monto. Al confirmar, el envío es inmediato.
+      </Step>
+    </Steps>
+  </Tab>
+  <Tab title="Escaneando QR">
+    Alyto usa **un solo escáner** que reconoce automáticamente si el QR es de BOB o
+    de USDC — no tienes que elegir.
+
+    <Steps>
+      <Step title="Wallet USDC → Enviar → Escanear QR">
+        Activa la cámara o sube una imagen con el QR del destinatario.
+      </Step>
+      <Step title="Confirma el pago">
+        La app detecta el activo (USDC), muestra el destinatario y el monto. Confirma para enviar.
+      </Step>
+    </Steps>
+  </Tab>
+</Tabs>
+
+## Comisión y cotización
+
+Antes de confirmar verás la cotización con el desglose completo. Según la
+configuración vigente, puede aplicarse una **pequeña comisión de servicio** en USDC
+(el mismo activo, no es un cambio de moneda). Si aplica, se muestra de forma clara
+en la cotización — nunca hay cargos ocultos.
+
+## Límites
+
+Los envíos USDC tienen límites por operación y diarios, que pueden variar según tu
+tipo de cuenta (personal o business). El monto disponible y los límites se muestran
+en la app al momento de enviar.
+
+<Warning>
+  El saldo se descuenta de inmediato y el destinatario lo recibe al instante. **No es
+  posible cancelar** una transferencia una vez confirmada.
+</Warning>
+
+## ¿No tienes USDC todavía?
+
+<CardGroup cols={2}>
+  <Card title="Convertir BOB a USDC" icon="arrows-rotate" href="/wallet-usdc/convertir-bob-a-usdc">
+    Convierte tu saldo en bolivianos a USDC.
+  </Card>
+  <Card title="Depositar USDC" icon="arrow-down-to-line" href="/wallet-usdc/depositar-usdc">
+    Recibe USDC desde la red Stellar.
+  </Card>
+</CardGroup>
